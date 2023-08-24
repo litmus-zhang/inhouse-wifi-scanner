@@ -1,7 +1,7 @@
 import subprocess
 
 def scan_wifi():
-    results = subprocess.check_output(["iwlist", "wlp2s0", "scan"])
+    results = subprocess.check_output(["iwlist", "wlan0", "scan"])
     return results.decode("utf-8")
 
 
