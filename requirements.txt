@@ -1,3 +1,2 @@
-pybluez2==0.46
-pywifi==1.1.12
-
+fastapi==0.101.1
+uvicorn==0.23.2
